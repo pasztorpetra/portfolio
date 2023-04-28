@@ -1,0 +1,78 @@
+* {
+  font-family: "DynaPuff", cursive;
+  margin: 0;
+}
+
+.background {
+  background-color: rgb(168, 167, 187);
+  height: 100vh;
+  padding: 10px;
+}
+
+.content {
+  width: 400px;
+  height: 70vh;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.title {
+  text-align: center;
+  font-size: 25px;
+}
+
+.message {
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.reset {
+  background-color: rgb(53, 80, 106);
+  border-radius: 5px;
+  border: 1px solid #7aa7c7;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  padding: 0.75em 1.5em;
+  text-align: center;
+  position: relative;
+  margin: 15px 15px 15px 50px;
+}
+
+.reset:hover,
+.reset:focus {
+  background-color: rgb(93, 92, 118);
+  color: black;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  max-width: 300px;
+  margin: 0 auto 0 auto;
+  -webkit-box-shadow: 0px 0px 15px 2px #000000;
+  box-shadow: 0px 0px 15px 2px grey;
+}
+
+.cell {
+  border: 1px solid white;
+  min-width: 80px;
+  min-height: 80px;
+  background-color: rgb(178, 197, 214);
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  display: flex;
+}
