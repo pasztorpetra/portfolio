@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.navbar {
+  background-image: url(./img/bg-pattern.png), 
+  linear-gradient(to right, rgb(218, 37, 50), rgb(125, 66, 149));
+  font-size: small;
+}
+
+.navbar .navbar-brand {
+  color: rgb(253, 199, 64);
+}
+
+.navbar .navbar-brand:hover {
+  color: white;
+}
+
+.font1
+{
+  font-family: 'Catamaran', Helvetica, Arial, sans-serif;
+}
+
+.nav-link,
+.font2 
+{
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+.btn:hover,
+.btn:focus
+ {
+  border: #fdcc52;
+  background-color: #fdcc52;
+}
+
+.container_opening {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./img/bg-pattern.png), 
+  linear-gradient(to right, rgb(218, 37, 50), rgb(125, 66, 149));
+}
+
+.jumbotron-yellow {
+  height: 400px;
+  background-color: rgb(253, 199, 64);
+}
+
+.jumbotron-yellow2 {
+  background-color: rgb(253, 199, 64);
+}
+
+#heart {
+  color: rgb(221, 75, 57);
+}
+
+.container-footer {
+  background-color: rgb(34, 34, 34);
+  font-size: xx-small;
+}
+
+.nav-link {
+  padding: 5px;
+}
+
+.card-img {
+  opacity: 75%;
+}
+
+.twitter {
+  color: rgb(29, 161, 242);
+  opacity: 90%;
+}
+
+.twitter:hover {
+  color: rgb(29, 161, 242);
+  opacity: 100%;
+}
+
+.facebook {
+  color: rgb(59, 89, 152);
+  opacity: 90%;
+}
+
+.facebook:hover {
+  color: rgb(59, 89, 152);
+  opacity: 100%;
+}
+
+.google {
+  color: rgb(221, 75, 57);
+  opacity: 90%;
+}
+
+.google:hover {
+  color: rgb(221, 75, 57);
+  opacity: 100%;
+}
+
+#privacy:hover {
+  color: #fdcc52;
+  cursor: pointer;
+}
+
+#terms:hover {
+  color: #fdcc52;
+  cursor: pointer;
+}
+
+#faq:hover {
+  color: #fdcc52;
+  cursor: pointer;
+}
+
